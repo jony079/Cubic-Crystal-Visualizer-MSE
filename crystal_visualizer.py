@@ -514,7 +514,7 @@ st.markdown("""
   </div>
   <div class='kpi-card'>
     <div class='kpi-label'>Atoms / Unit Cell</div>
-    <div class='kpi-value' style='color:#f97316'>{n}</div>
+    <div class='kpi-value' style='color:#f97316'>{n_atoms}</div>
     <div class='kpi-unit'>Effective atoms</div>
   </div>
   <div class='kpi-card'>
@@ -523,7 +523,7 @@ st.markdown("""
     <div class='kpi-unit'>Max linear atomic density</div>
   </div>
 </div>
-""".format(d=d, r=r, apf=apf, apf_pct=apf*100, cn=cn, n=n_atoms, cpd=cpd),
+""".format(d=d, r=r, apf=apf, apf_pct=apf*100, cn=cn, n_atoms=n_atoms, cpd=cpd),
 unsafe_allow_html=True)
 
 # ── Tabs ─────────────────────────────────────────────────
